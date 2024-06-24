@@ -1,0 +1,122 @@
+strong{
+  color: #e54a1a;
+    font-weight: 500;
+}
+
+/* MenuPage.css */
+.menu-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.menu-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #fe8c66;
+}
+
+.loader {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.meals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+.meal-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  text-align: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.meal-card:hover {
+  transform: translateY(-10px);
+}
+
+.meal-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.meal-card {
+  h2, h3{
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+
+}
+h3{
+  color:#e54a1a;
+  font-weight: bold;
+}
+  
+}
+
+.meal-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+/* Styles for the Add to Cart button */
+.add-to-cart-button {
+  color: #e54a1a;
+  background-color: #fff;
+  border: 1px solid #e54a1a;
+  padding: 0.563rem 1rem;
+  border-radius: 1.62rem;
+  min-width: 9.375rem;
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.add-to-cart-button:hover {
+/* font-weight: 400; */
+color:#000;
+border: 1px solid #000;
+
+}
+
+.fill-heart {
+color: red
+}
+.categoryHeading{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 32px;
+
+  color: #e54a1a;
+  font-weight: 500;
+}

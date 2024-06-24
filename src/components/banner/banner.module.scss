@@ -1,0 +1,14 @@
+/* Carousel css */
+.bannerWrapper {
+  // display: block;
+
+  overflow: hidden;
+  @media (min-width: 1024px) {
+    height: 25rem;
+  }
+  img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+}

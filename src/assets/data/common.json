@@ -1,0 +1,188 @@
+{
+  "header": {
+    "imageSource": "/images/logo.png",
+    "items": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Menu",
+        "url": "/menu"
+      },
+      {
+        "label": "Favourite",
+        "url": "/favourite"
+      },
+      {
+        "label": "Randon Meal",
+        "url": "/random-meal"
+      },
+      {
+        "label": "About Us",
+        "url": "/about-us"
+      }
+    ]
+  },
+  "mainBanner": {
+    "item": [
+      {
+        "imageSource": "images/home.jpg",
+        "heading": "Welcome to <em>QuickFood</em>",
+        "subHeading": "Enjoy the <em>Tasty Foods</em> made by our experts"
+      },
+      {
+        "imageSource": "images/menu.jpg",
+        "heading": "Explore <em>Menu</em>",
+        "subHeading": "Lorem Ipsum is simply <em>dummy text of the printing</em> and typesetting industry",
+        "link":"menu",
+        "label":"Know More"
+      },
+      {
+        "imageSource": "images/favourite.jpg",
+        "heading": "My <em>Favourite</em>",
+        "subHeading": "Lorem Ipsum is simply <em>dummy text of the printing</em> and typesetting industry",
+        "link":"favourite",
+        "label":"Know More"
+      },
+      {
+        "imageSource": "images/random.webp",
+        "heading": "<em>Random Meal</em>",
+        "subHeading": "Lorem Ipsum is simply <em>dummy text of the printing</em> and typesetting industry",
+        "link":"random-meal",
+        "label":"Know More"
+      }
+    ]
+  },
+  "homeOverview": {
+    "heading": "<span>QuickFood</span> Inspires",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br /><br /> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "menuOverview": {
+    "heading": "<span>Menu</span>",
+    "description": ""
+  },
+  "aboutPageOverview": {
+    "heading": "<span>About</span> Us",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <br /><br />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+"favouriteOverview": {
+    "heading": "<span>Favourite</span> Food",
+    "description": ""
+  },
+  "randomMealOverview": {
+    "heading": "<span>Random</span> Meal",
+    "description": ""
+  },
+  "team": {
+    "heading": "Meet <strong>the team</strong>",
+    "subHeading": "",
+    "item": [
+      {
+        "imageSource": "images/team.webp",
+        "name": "Wiliam Henry",
+        "designation": "CEO",
+        "socialImageSource": ""
+      },
+      {
+        "imageSource": "images/team.webp",
+        "name": "Jack Daniel",
+        "designation": "DIRECTOR, USER EXPERIENCE DESIGN",
+        "socialImageSource": ""
+      },
+      {
+        "imageSource": "images/team.webp",
+        "name": "Michael Noah",
+        "designation": "DIRECTOR, SAP DEVELOPMENT & CRM SOLUTIONS",
+        "socialImageSource": ""
+      },
+      {
+        "imageSource": "images/team.webp",
+        "name": "George Bradan",
+        "designation": "CREATIVE DIRECTOR",
+        "socialImageSource": ""
+      },
+      {
+        "imageSource": "images/team.webp",
+        "name": "Aubrey Ezra",
+        "designation": "DIRECTOR, MANAGEMENT",
+        "socialImageSource": ""
+      }
+    ]
+  },
+  "banner": {
+    "imageSource": "images/contact.png"
+  },
+  "menuList": {
+    "items": [
+      {
+        "label": "Category 1",
+        "url": "category1"
+      },
+      {
+        "label": "Category 2",
+        "url": "category2"
+      },
+      {
+        "label": "Category 3",
+        "url": "category3"
+      },
+      {
+        "label": "Category 4",
+        "url": "category4"
+      },
+      {
+        "label": "Category 5",
+        "url": "category5"
+      }
+    ]
+  },
+  "footer": {
+    "about": {
+      "heading": "About us",
+      "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer<br /><br />took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</p>"
+    },
+    "service": {
+      "heading": "Services",
+      "links": [
+        {
+          "label": "QuickFood Link 1",
+          "url": ""
+        },
+        {
+          "label": "QuickFood Link 2",
+          "url": ""
+        },
+        {
+          "label": "QuickFood Link 3",
+          "url": ""
+        },
+        {
+          "label": "QuickFood Link 4",
+          "url": ""
+        },
+        {
+          "label": "QuickFood Link 5",
+          "url": ""
+        },
+        {
+          "label": "QuickFood Link 6",
+          "url": ""
+        },
+        {
+          "label": "QuickFood Link 7",
+          "url": ""
+        },
+        {
+          "label": "QuickFood Link 8",
+          "url": ""
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Our Contacts",
+      "address": "25, Sector-46<br />Gurugram, Haryana<br />Phone: +91 9818909306<br />Email: <a href='mailto:info@quickfood.com'>info@quickfood.com</a><br />"
+    },
+    "copyRight": "2024 © QuickFood Service. ALL Rights Reserved."
+  }
+}

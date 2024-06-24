@@ -1,0 +1,40 @@
+.footerWrapper {
+  background: #313030;
+  color: #b0b0b0;
+  padding-top: 60px;
+  font-size: 14px;
+  h2 {
+    font: 400 21px;
+    margin: 0 0 8px;
+    color: #c2c1c1;
+    text-transform: uppercase;
+  }
+  a {
+    color: #57c8eb;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  li {
+    margin-bottom: 6px;
+  }
+  .footerWrapperCol {
+    padding-bottom: 22px;
+    padding-right: 50px;
+  }
+  address {
+    line-height: 1.7;
+  }
+  .servicesFooter a {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .copyRight {
+    background: #272626;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px 0;
+    text-align: center;
+  }
+}
