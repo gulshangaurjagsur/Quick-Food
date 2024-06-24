@@ -11,11 +11,13 @@ const Header = (props: any) => {
         <div className="container">
           <input type="checkbox" id="nav-toggle" style={{ display: "none" }} />
           <div className={styles.logo}>
+            <a href={compData?.logoUrl}>
             <img
               src={compData?.imageSource}
               alt="QuickFood"
               className="img-fluid"
             />
+            </a>
           </div>
           <ul className={styles.links}>
             {compData?.items?.map((item: any, index: number) => (

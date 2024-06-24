@@ -81,7 +81,6 @@ const MenuList = (props: any) => {
                 <p title={item?.strCategoryDescription}>{item?.strCategoryDescription.slice(0, 100)}...</p>
                 <button key={item?.idCategory} onClick={() => clickHandler(item?.strCategory)}>Explore</button>
               </div>
-              
             </div>
           ))}
         </div>

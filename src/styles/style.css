@@ -48,8 +48,10 @@ strong{
 
 .meal-card {
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 250px;
   overflow: hidden;
   transition: transform 0.3s;
@@ -59,7 +61,7 @@ strong{
 }
 
 .meal-card:hover {
-  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .meal-card img {
@@ -75,7 +77,9 @@ strong{
   margin: 10px 0;
 
 }
-h3{
+h2{
+  font-size: 1rem;
+
   color:#e54a1a;
   font-weight: bold;
 }

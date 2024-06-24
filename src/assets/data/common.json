@@ -1,6 +1,7 @@
 {
   "header": {
     "imageSource": "/images/logo.png",
+    "logoUrl": "/",
     "items": [
       {
         "label": "Home",
