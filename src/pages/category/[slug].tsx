@@ -6,7 +6,7 @@ import commomData from "../../assets/data/common.json";
 import { useRouter } from "next/router";
 import { FaHeart } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
-
+import Head from "next/head";
 const Category = () => {
   const [meals, setMeals] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -52,6 +52,13 @@ const Category = () => {
 
   return (
     <>
+    <Head>
+        <title>QuickFood Services - Categories</title>
+        <meta name="description" content="QuickFood Services - Categories" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main  className="mainContainer">
       <Header compData={commomData?.header} />
       <div className="menu-container">
         <h2 className="categoryHeading">{router.query.slug}</h2>
@@ -76,6 +83,7 @@ const Category = () => {
           </div>
       </div>
       <Footer compData={commomData?.footer} />
+      </main>
     </>
   );
 };

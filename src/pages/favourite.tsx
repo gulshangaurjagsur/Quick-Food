@@ -45,7 +45,7 @@ const Favourite = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="mainContainer">
       <Header compData={commomData?.header} />
       <Overview compData={commomData?.favouriteOverview} />
       <div className="menu-container mb-5">

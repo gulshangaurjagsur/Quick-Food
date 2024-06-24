@@ -15,7 +15,7 @@ export default function AboutUs() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="mainContainer">
         <Header compData={commomData?.header} />
         <Banner compData={commomData?.banner} />
         <Overview compData={commomData?.aboutPageOverview} />

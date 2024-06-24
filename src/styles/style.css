@@ -7,7 +7,6 @@ strong{
 .menu-container {
   width: 100%;
   padding: 20px;
-  background-color: #f9f9f9;
 }
 
 .menu-container h1 {
@@ -123,4 +122,7 @@ color: red
 
   color: #e54a1a;
   font-weight: 500;
+}
+.mainContainer{
+  background-color: #f9f9f9;
 }
